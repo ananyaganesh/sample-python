@@ -14,6 +14,12 @@ for line in f:
 
 for word, count in wdict.items():
     print word, count
+
+print "The unique words are: "
+
+for word, count in wdict.items():
+    if count == 1:
+        print word
         
         
         
